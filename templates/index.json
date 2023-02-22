@@ -209,6 +209,23 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "1677066193f02fdb7a": {
+      "type": "apps",
+      "blocks": {
+        "66db210e-b1af-44b4-8b4a-e97f6339609e": {
+          "type": "shopify:\/\/apps\/upet-app\/blocks\/app-block\/9a7d097a-af63-4c7c-9f67-f12ac76dafc2",
+          "settings": {
+            "color": "#000000"
+          }
+        }
+      },
+      "block_order": [
+        "66db210e-b1af-44b4-8b4a-e97f6339609e"
+      ],
+      "settings": {
+        "include_margins": true
+      }
     }
   },
   "order": [
@@ -217,6 +234,7 @@
     "featured_collection",
     "collage",
     "video",
-    "multicolumn"
+    "multicolumn",
+    "1677066193f02fdb7a"
   ]
 }
