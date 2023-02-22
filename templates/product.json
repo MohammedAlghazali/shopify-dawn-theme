@@ -3,6 +3,12 @@
     "main": {
       "type": "main-product",
       "blocks": {
+        "1a62878e-c15a-4d99-9ae9-6aa91b5b68fe": {
+          "type": "shopify:\/\/apps\/upet-app\/blocks\/app-block\/9a7d097a-af63-4c7c-9f67-f12ac76dafc2",
+          "settings": {
+            "color": "#2de41b"
+          }
+        },
         "vendor": {
           "type": "text",
           "settings": {
@@ -86,6 +92,7 @@
         }
       },
       "block_order": [
+        "1a62878e-c15a-4d99-9ae9-6aa91b5b68fe",
         "vendor",
         "title",
         "price",
