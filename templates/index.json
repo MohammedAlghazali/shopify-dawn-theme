@@ -50,41 +50,12 @@
     },
     "16770663311c16f290": {
       "type": "apps",
-      "blocks": {
-        "28f741cd-2996-4f41-8af4-69dfd5d16431": {
-          "type": "shopify:\/\/apps\/upet-app\/blocks\/app-block\/9a7d097a-af63-4c7c-9f67-f12ac76dafc2",
-          "settings": {
-            "color": "#000000"
-          }
-        }
-      },
-      "block_order": [
-        "28f741cd-2996-4f41-8af4-69dfd5d16431"
-      ],
       "settings": {
         "include_margins": true
       }
     },
     "1677066193f02fdb7a": {
       "type": "apps",
-      "blocks": {
-        "66db210e-b1af-44b4-8b4a-e97f6339609e": {
-          "type": "shopify:\/\/apps\/upet-app\/blocks\/app-block\/9a7d097a-af63-4c7c-9f67-f12ac76dafc2",
-          "settings": {
-            "color": "#000000"
-          }
-        },
-        "5d7133ee-ef88-4402-9eca-af6b83b3e517": {
-          "type": "shopify:\/\/apps\/upet-app\/blocks\/app-block\/9a7d097a-af63-4c7c-9f67-f12ac76dafc2",
-          "settings": {
-            "color": "#000000"
-          }
-        }
-      },
-      "block_order": [
-        "66db210e-b1af-44b4-8b4a-e97f6339609e",
-        "5d7133ee-ef88-4402-9eca-af6b83b3e517"
-      ],
       "settings": {
         "include_margins": true
       }
@@ -250,6 +221,41 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "1677249138f04de7ad": {
+      "type": "apps",
+      "blocks": {
+        "09f68933-0b8e-437c-a012-e5d7e0cb5a49": {
+          "type": "shopify:\/\/apps\/upet-app\/blocks\/views-count\/3eadb355-e1a4-425e-a991-4dbdc875a227",
+          "settings": {
+            "text": "<b>[count] people<\/b> have looked at this puppy today",
+            "count_position_mobile": "inline",
+            "count_position_desktop": "inline",
+            "show_pulse_mobile": true,
+            "show_pulse_desktop": true,
+            "pulse_aligment_mobile": "center",
+            "pulse_aligment_desktop": "center",
+            "pulse_width_mobile": 200,
+            "pulse_width_desktop": 200,
+            "pulse_height_mobile": 150,
+            "pulse_height_desktop": 150,
+            "show_count_mobile": true,
+            "show_count_desktop": true,
+            "accent_color": "global",
+            "accent_color_desktop": "global",
+            "text_color": "global",
+            "text_color_desktop": "global",
+            "color_schema_mobile": "global",
+            "color_schema_desktop": "global"
+          }
+        }
+      },
+      "block_order": [
+        "09f68933-0b8e-437c-a012-e5d7e0cb5a49"
+      ],
+      "settings": {
+        "include_margins": true
+      }
     }
   },
   "order": [
@@ -260,6 +266,7 @@
     "featured_collection",
     "collage",
     "video",
-    "multicolumn"
+    "multicolumn",
+    "1677249138f04de7ad"
   ]
 }
