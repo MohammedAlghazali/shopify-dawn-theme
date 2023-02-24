@@ -3,12 +3,6 @@
     "main": {
       "type": "main-product",
       "blocks": {
-        "1a62878e-c15a-4d99-9ae9-6aa91b5b68fe": {
-          "type": "shopify:\/\/apps\/upet-app\/blocks\/app-block\/9a7d097a-af63-4c7c-9f67-f12ac76dafc2",
-          "settings": {
-            "color": "#2de41b"
-          }
-        },
         "vendor": {
           "type": "text",
           "settings": {
@@ -89,10 +83,33 @@
           "settings": {
             "share_label": "Share"
           }
+        },
+        "01aa2496-749c-4d0b-9be2-e0eaa42f3839": {
+          "type": "shopify:\/\/apps\/upet-app\/blocks\/views-count\/3eadb355-e1a4-425e-a991-4dbdc875a227",
+          "settings": {
+            "text": "<b>[count] people<\/b> have looked at this puppy today",
+            "count_position_mobile": "inline",
+            "count_position_desktop": "inline",
+            "show_pulse_mobile": true,
+            "show_pulse_desktop": true,
+            "pulse_aligment_mobile": "center",
+            "pulse_aligment_desktop": "center",
+            "pulse_width_mobile": 200,
+            "pulse_width_desktop": 200,
+            "pulse_height_mobile": 150,
+            "pulse_height_desktop": 150,
+            "show_count_mobile": true,
+            "show_count_desktop": true,
+            "accent_color": "global",
+            "accent_color_desktop": "global",
+            "text_color": "global",
+            "text_color_desktop": "global",
+            "color_schema_mobile": "global",
+            "color_schema_desktop": "global"
+          }
         }
       },
       "block_order": [
-        "1a62878e-c15a-4d99-9ae9-6aa91b5b68fe",
         "vendor",
         "title",
         "price",
@@ -104,7 +121,8 @@
         "collapsible-row-1",
         "collapsible-row-2",
         "collapsible-row-3",
-        "share"
+        "share",
+        "01aa2496-749c-4d0b-9be2-e0eaa42f3839"
       ],
       "settings": {
         "enable_sticky_info": true,
